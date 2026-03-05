@@ -8,15 +8,15 @@ export const episode4: EpisodeContent = {
     disciplinaryFocus: "Source/evidence level, mechanism reasoning",
     knowledgeFocus: "coherence: linking concepts, evidence, and claims",
   },
-  narrative: `Hyunwoo opened the sample box he had brought from the lab. Small vials were lined up. Each was labeled with a sea area name.
+  narrative: `Corey opened the sample box he had brought from the lab. Small vials were lined up. Each was labeled with a sea area name.
 
 He adjusted the microscope and looked at the first sample. Countless tiny organisms drifted in the water. So small they were barely visible. But in the sea, these small organisms are the start of everything. Small organisms grow. Small fish eat them. Larger fish eat the small fish.
 
-Hyunwoo drew a simple diagram in his notebook. Plankton → small fish → large fish. He paused and thought. 'Could this be.. **harmful algal bloom**?'
+Corey drew a simple diagram in his notebook. Plankton → small fish → large fish. He paused and thought. 'Could this be.. **harmful algal bloom**?'
 
 In the sea, many substances move in this way. Some are nutrients. Some are simple chemicals. And sometimes there are toxic substances produced by living things. Plankton are mostly harmless, but some species produce toxic chemicals. Some species were known from earlier research to produce **neurotoxins**. Such neurotoxins can affect nerve signaling.
 
-Hyunwoo placed the next sample under the microscope. This area had had high catches lately. He thought for a moment. People in the village eat fish from the sea almost every day. And some fish grow by eating other fish. He wrote a short line in his notebook. Species higher in the food chain. And next to it another note. Repeated consumption.
+Corey placed the next sample under the microscope. This area had had high catches lately. He thought for a moment. People in the village eat fish from the sea almost every day. And some fish grow by eating other fish. He wrote a short line in his notebook. Species higher in the food chain. And next to it another note. Repeated consumption.
 
 He didn't close the notebook. In the sea everything is connected. A small change can, through many steps, appear in a completely different form.
 
@@ -25,7 +25,7 @@ Outside the window, boats were returning to the pier. And in the nets, as always
     {
       id: "ep4-q1",
       type: "situation",
-      text: "What is Hyunwoo doing in this story and what key notes did he write?",
+      text: "What is Corey doing in this story and what key notes did he write?",
       keywords: ["sample, microscope observation", "plankton → small fish → large fish", "harmful algal bloom?", "species higher in food chain, repeated consumption"],
       misconceptionPatterns: ["only observing", "no notes or hypothesis"],
       rubric: { "0": "none/error", "1": "partial (observation only or part of notes)", "2": "sufficient (observation + HAB, food chain, repeated consumption notes)" },
@@ -33,7 +33,7 @@ Outside the window, boats were returning to the pier. And in the nets, as always
     {
       id: "ep4-q2",
       type: "claim_evidence",
-      text: "Why did Hyunwoo write 'harmful algal bloom?' with a question mark? Explain using his observations (samples, food chain diagram) from the passage.",
+      text: "Why did Corey write 'harmful algal bloom?' with a question mark? Explain using his observations (samples, food chain diagram) from the passage.",
       keywords: ["plankton, small organisms", "food chain", "possible toxin movement", "still checking (question mark)"],
       misconceptionPatterns: ["state HAB as fact", "no link to observations"],
       rubric: { "0": "none/error", "1": "partial (HAB only or observation only)", "2": "sufficient (observation, food chain linked to hypothesis)" },
@@ -57,7 +57,7 @@ Outside the window, boats were returning to the pier. And in the nets, as always
     {
       id: "ep4-q5",
       type: "next_data_method",
-      text: "What additional data or methods would be needed to test Hyunwoo's hypothesis (HAB, neurotoxin, species higher in chain, repeated consumption)?",
+      text: "What additional data or methods would be needed to test Corey's hypothesis (HAB, neurotoxin, species higher in chain, repeated consumption)?",
       keywords: ["toxin, algal species in area samples", "toxin concentration in fish tissue", "intake amount, duration", "comparison with village patients", "establishing cause"],
       misconceptionPatterns: ["already proven", "no specific method"],
       rubric: { "0": "none/error", "1": "partial (one only)", "2": "sufficient (two or more specific)" },
@@ -75,7 +75,7 @@ Outside the window, boats were returning to the pier. And in the nets, as always
     {
       id: "ep4-q1-se",
       goal: "situation",
-      text: "What is Hyunwoo doing in this story and what key notes did he write?",
+      text: "What is Corey doing in this story and what key notes did he write?",
       keywords: ["sample, microscope", "plankton → small → large fish", "harmful algal bloom?", "species higher in chain, repeated consumption"],
       misconceptionPatterns: ["only observing", "no notes or hypothesis"],
       rubric: { "0": "none/error", "1": "partial (observation or part of notes)", "2": "sufficient (observation + HAB, food chain, repeated consumption)" },
@@ -83,25 +83,25 @@ Outside the window, boats were returning to the pier. And in the nets, as always
     {
       id: "ep4-se1",
       goal: "cause_effect",
-      text: "**What did Hyunwoo observe** and **what notes or hypothesis did he write**? And how could that **connect to Episodes 1–3** (Jiyeon, Taesu, Sumin)? Explain cause and effect.",
-      keywords: ["plankton, food chain", "HAB, neurotoxin", "species higher in chain, repeated consumption", "Jiyeon's observations → Taesu's pattern → Sumin's cause-seeking → Hyunwoo's mechanism"],
+      text: "**What did Corey observe** and **what notes or hypothesis did he write**? And how could that **connect to Episodes 1–3** (Amy, Jade, Cate)? Explain cause and effect.",
+      keywords: ["plankton, food chain", "HAB, neurotoxin", "species higher in chain, repeated consumption", "Amy's observations → Jade's pattern → Cate's cause-seeking → Corey's mechanism"],
       misconceptionPatterns: ["only Episode 4", "no link to 1–3"],
-      rubric: { "0": "none/error", "1": "partial (Hyunwoo observation, notes only)", "2": "sufficient (Hyunwoo + link to Episodes 1–3)" },
+      rubric: { "0": "none/error", "1": "partial (Corey observation, notes only)", "2": "sufficient (Corey + link to Episodes 1–3)" },
     },
     {
       id: "ep4-se2",
       goal: "evidence_reason",
-      text: "Find **evidence** in the passage for Hyunwoo saying **'In the sea everything is connected'** and explain how it **connects**.",
+      text: "Find **evidence** in the passage for Corey saying **'In the sea everything is connected'** and explain how it **connects**.",
       keywords: ["plankton → small fish → large fish", "substances, toxins moving", "species higher in chain, repeated consumption", "small change → many steps → different form"],
       misconceptionPatterns: ["general claim only", "no specific content from passage"],
       rubric: { "0": "none/error", "1": "partial (one piece)", "2": "sufficient (evidence from passage for connection)" },
     },
   ],
-  miniLesson: `Harmful algal bloom (HAB) is when certain plankton increase rapidly. Some species produce neurotoxins, and these toxins can move up the food chain and build up in bodies. Eating species higher in the chain often can mean repeated exposure, and neurotoxins can affect the brain (e.g. hippocampus) or nerve signaling. Hyunwoo's notes (species higher in chain, repeated consumption) are a hypothesis that could connect Jiyeon's memory issues, Taesu's ledger pattern, and Sumin's hospital records into one mechanism. To confirm, we would need research tying area, fish, and patient data together.`,
+  miniLesson: `Harmful algal bloom (HAB) is when certain plankton increase rapidly. Some species produce neurotoxins, and these toxins can move up the food chain and build up in bodies. Eating species higher in the chain often can mean repeated exposure, and neurotoxins can affect the brain (e.g. hippocampus) or nerve signaling. Corey's notes (species higher in chain, repeated consumption) are a hypothesis that could connect Amy's memory issues, Jade's ledger pattern, and Cate's hospital records into one mechanism. To confirm, we would need research tying area, fish, and patient data together.`,
   quiz: [
     {
       id: "ep4-quiz-1",
-      question: "In what context did Hyunwoo write 'Could this be.. harmful algal bloom?'?",
+      question: "In what context did Corey write 'Could this be.. harmful algal bloom?'?",
       options: ["Good weather", "After drawing plankton and food chain (small → small fish → large fish), and that substances in the sea move that way and toxins can too", "High catches", "Fish taste good"],
       correctIndex: 1,
       feedback: "Right after drawing the food chain he thought that in the sea many substances move that way and sometimes there are toxic substances—hence harmful algal bloom.",
