@@ -50,3 +50,19 @@ git push -u origin main
 ## 4. 환경 변수
 
 현재 버전은 환경 변수 없이 동작합니다. 추후 백엔드·로그 수집 API를 쓰면 Vercel 프로젝트 **Settings → Environment Variables**에서 설정하면 됩니다.
+
+## 5. 404 NOT_FOUND (English version — Vercel checklist)
+
+1. **Settings → General**  
+   **Root Directory**: Leave **empty** (this repo has the app at root).
+
+2. **Settings → Build & Development**  
+   **Framework Preset**: **Next.js**.  
+   **Output Directory**: Leave **empty** (do not set `out` or `.next` — Vercel handles Next.js automatically).  
+   **Build Command**: empty or `npm run build`. **Install Command**: empty or `npm install`.
+
+3. **Deployments**  
+   Check the latest deployment **Building** tab — build must **succeed**. If it fails, you may get 404. Check **Runtime Logs** for errors.
+
+4. **URL**  
+   Open the deployment **root**: `https://[project].vercel.app/`
